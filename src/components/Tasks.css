@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+/* Replace ".btn" with your actual button class */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  background-color: #3498db;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.btn:hover {
+  background-color: #2980b9;
+}
+
+/* Additional styles for primary button */
+.btn.primary {
+  background-color: #e74c3c;
+}
+
+/* Additional styles for secondary button */
+.btn.secondary {
+  background-color: #2ecc71;
+}
+
+
+
+
+/* Replace ".input" with your actual input class */
+.input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #120626;
+  border-radius: 5px;
+}
+
+.input-4{
+  width: auto;
+}
+
+/* Optional styles for focused input */
+.input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+
+.task{
+  display: flex;
+  justify-content: center;
+}
+
+#task-04{
+  align-items: center;
+  justify-content: center;
+  padding-left: 660px;
+}
+
+.viewChild{
+  /* overflow-y: auto; */
+  align-items: center;
+  justify-content: center;
+  padding-left: 660px;
+}
+

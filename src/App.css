@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #D5CEA3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container{
+  background-color: #fff;
+  min-height: 93vh;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  padding: 100px 60px;
+  font-family: 'poppins',;
+  /* color: aliceblue; */
+}
+
+.container-2{
+  background-color: #fff;
+  /* min-height: 93vh; */
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 60px;
+  font-family: 'poppins',;
+}
